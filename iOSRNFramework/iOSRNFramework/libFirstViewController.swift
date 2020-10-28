@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 import UIKit
 
 public class libFirstViewController: UIViewController {
@@ -17,6 +18,14 @@ public class libFirstViewController: UIViewController {
     
     public static func appendStringMethod (str:String) -> String {
         return "Hello" + str
+    }
+    
+    public static func testApiCall () {
+        AF.request("https://postman-echo.com/get?foo1=bar1&foo2=bar2").responseJSON { response in
+            print(response.response as Any) // http url response
+            print(response.result)  // response serialization result
+            
+        }
     }
     
 }

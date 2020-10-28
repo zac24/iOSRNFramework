@@ -1,0 +1,6 @@
+framework module Pods_iOSRNFramework {
+  umbrella header "Pods-iOSRNFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

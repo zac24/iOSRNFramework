@@ -6,5 +6,6 @@ target 'iOSRNFramework' do
   use_frameworks!
 
   # Pods for iOSRNFramework
+    pod 'Alamofire', '~> 5.2'
 
 end
