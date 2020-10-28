@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "iOSRNFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of iOSRNFramework."
+  spec.summary      = "Simple iOS RN framework"
   spec.description  = <<-DESC
   This is an sample iOS framework which is being built for testing custom framework
                    DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Prashant Dwivedi" => "dwi.pra24@gmail.com" }
   spec.swift_version = "5.0"
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/zac24/iOSRNFramework", :branch => "main" }
+  spec.source       = { :git => "https://github.com/zac24/iOSRNFramework.git", :branch => "main" }
   spec.source_files  = "iOSRNFramework/**/*.{h,m,swift}"
   spec.resources = "iOSRNFramework/**/*.{xib}"
 
