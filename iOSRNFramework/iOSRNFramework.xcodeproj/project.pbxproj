@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A0FD2A8D25498CC500E0E615 /* iOSRNFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FD2A8B25498CC500E0E615 /* iOSRNFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FD2A9625498D4100E0E615 /* libFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD2A9525498D4100E0E615 /* libFirstViewController.swift */; };
+		A0FD2A98254993AC00E0E615 /* libFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0FD2A97254993AB00E0E615 /* libFirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		A0FD2A8B25498CC500E0E615 /* iOSRNFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSRNFramework.h; sourceTree = "<group>"; };
 		A0FD2A8C25498CC500E0E615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0FD2A9525498D4100E0E615 /* libFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libFirstViewController.swift; sourceTree = "<group>"; };
+		A0FD2A97254993AB00E0E615 /* libFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = libFirstViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				A0FD2A8B25498CC500E0E615 /* iOSRNFramework.h */,
 				A0FD2A8C25498CC500E0E615 /* Info.plist */,
 				A0FD2A9525498D4100E0E615 /* libFirstViewController.swift */,
+				A0FD2A97254993AB00E0E615 /* libFirstViewController.xib */,
 			);
 			path = iOSRNFramework;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FD2A98254993AC00E0E615 /* libFirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
