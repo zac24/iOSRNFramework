@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/zac24/iOSRNFramework.git", :branch => "main" }
-  spec.dependency 'Alamofire', '5.2'
   spec.source_files  = "iOSRNFramework/**/*.{h,m,swift}"
   spec.resources = "iOSRNFramework/**/*.{xib}"
 

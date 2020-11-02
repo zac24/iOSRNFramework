@@ -6,6 +6,8 @@ target 'iOSRNFramework' do
   use_frameworks!
 
   # Pods for iOSRNFramework
-    pod 'Alamofire', '~> 5.2'
+  #  pod 'Alamofire', '~> 5.2'
+  #  pod 'WebBrowser', '~> 0.1.5'
+    pod 'FontAwesomeKit', '~> 2.2.0'
 
 end
